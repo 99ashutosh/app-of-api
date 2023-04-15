@@ -11,8 +11,9 @@ target/
 *.iws
 *.iml
 *.ipr
-.idea/
-.mvn/
+
+
+
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -37,3 +38,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/.mvn/
+/.idea/

@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26963be5-345a-451f-befe-0e7d26d91d06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/allApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Models/APIManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Models/AccountManagementBackend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/apiTableEntry.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/test.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../class/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/../class/Bird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rust/k210-examples/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../rust/k210-examples/Cargo.lock" afterDir="false" />
+    <list default="true" id="26963be5-345a-451f-befe-0e7d26d91d06" name="Changes" comment="Initial Commit">
+      <changelist_data name="99ashutosh" email="ashutosh.na.99@gmail.com" />
       <change beforePath="$PROJECT_DIR$/../../scala/scalaonandroid" beforeDir="false" afterPath="$PROJECT_DIR$/../../scala/scalaonandroid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../workshops/SummerSchool2022" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshops/SummerSchool2022" afterDir="false" />
     </list>
@@ -44,7 +24,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="99ashutosh &lt;ashutosh.na.99@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -62,9 +48,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -112,8 +97,16 @@
       <updated>1680281896422</updated>
       <workItem from="1680281898859" duration="377000" />
       <workItem from="1680282291173" duration="11704000" />
-      <workItem from="1681523340730" duration="15103000" />
+      <workItem from="1681523340730" duration="15496000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1681543141799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681543141799</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
