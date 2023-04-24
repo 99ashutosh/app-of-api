@@ -1,19 +1,26 @@
 package com.ooadjproject.appofapi.Models;
 
 import java.sql.*;
+
+/*
+ * The Singleton Pattern
+ * */
+
 public class APIManagement {
+    private static APIManagement instance;
     public boolean insAPI(String aname,String aurl,String acreator)
     {
         Connection connection=null;
         try
         {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            //Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("org.mariadb.jdbc.Driver");
             connection=DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/API",
+                    "jdbc:mariadb://localhost:3306/API",
                     "APIroot","APIroot");
             PreparedStatement statement;
             statement=connection.prepareStatement(
-                    "INSERT INTO API (aname,aurl,acreator) VALUES(?,?,?)");
+                    "INSERT INTO api_data (aname,aurl,acreator) VALUES(?,?,?)");
             statement.setString(1,aname);
             statement.setString(2,aurl);
             statement.setString(3,acreator);
@@ -31,13 +38,13 @@ public class APIManagement {
         Connection connection=null;
         try
         {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("org.mariadb.jdbc.Driver");
             connection=DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/API",
+                    "jdbc:mariadb://localhost:3306/API",
                     "APIroot","APIroot");
             PreparedStatement statement;
             statement=connection.prepareStatement(
-                    "DELETE FROM API WHERE aname=?");
+                    "DELETE FROM api_data WHERE aname=?");
             statement.setString(1,aname);
             statement.executeUpdate();
         }
@@ -54,13 +61,13 @@ public class APIManagement {
         ResultSet resultSet=null;
         try
         {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("org.mariadb.jdbc.Driver");
             connection=DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/API",
+                    "jdbc:mariadb://localhost:3306/API",
                     "APIroot","APIroot");
             PreparedStatement statement;
             statement=connection.prepareStatement(
-                    "SELECT * FROM API");
+                    "SELECT * FROM api_data");
             resultSet=statement.executeQuery();
             return resultSet;
         }
@@ -70,6 +77,15 @@ public class APIManagement {
         }
         return resultSet;
     }
+
+    public static APIManagement getInstance() {
+        if (instance == null) {
+            instance = new APIManagement();
+        }
+        return instance;
+    }
+
+    /*
     public static void main(String[] args) throws SQLException
     {
         APIManagement o=new APIManagement();
@@ -84,4 +100,6 @@ public class APIManagement {
             System.out.println();
         }
     }
+
+     */
 }

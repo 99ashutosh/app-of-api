@@ -2,133 +2,59 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.Tab?>
-<?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ooadjproject.appofapi.Controllers.LoginController">
-   <children>
-      <TabPane prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
-        <tabs>
-            <Tab text="test">
-              <content>
-                <fx:include source="userSettings.fxml"/>
-              </content>
-            </Tab>
-          <Tab text="Login">
-            <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                     <children>
-                        <VBox layoutX="2.0" layoutY="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368.0" prefWidth="600.0">
-                           <children>
-                              <VBox prefHeight="200.0" prefWidth="100.0">
-                                 <children>
-                                    <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="NEVER">
-                                       <children>
-                                          <Label text="Username">
-                                             <padding>
-                                                <Insets right="30.0" />
-                                             </padding>
-                                          </Label>
-                                          <TextField />
-                                       </children>
-                                       <padding>
-                                          <Insets left="50.0" top="20.0" />
-                                       </padding>
-                                    </HBox>
-                                    <HBox prefHeight="100.0" prefWidth="200.0">
-                                       <children>
-                                          <Label text="Password">
-                                             <padding>
-                                                <Insets right="30.0" />
-                                             </padding>
-                                          </Label>
-                                          <PasswordField />
-                                       </children>
-                                       <padding>
-                                          <Insets left="50.0" top="20.0" />
-                                       </padding>
-                                    </HBox>
-                                 </children>
-                              </VBox>
-                              <Button mnemonicParsing="false" onAction="#onLogin" text="Login">
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
-                                 <font>
-                                    <Font size="14.0" />
-                                 </font>
-                              </Button>
-                              <Label fx:id="welcomeText" text="Label" />
-                           </children>
-                        </VBox>
-                     </children>
-                  </AnchorPane>
-            </content>
-          </Tab>
-          <Tab text="Create A New Account">
-            <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                     <children>
-                        <VBox prefHeight="369.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                           <children>
-                              <HBox prefHeight="100.0" prefWidth="200.0">
-                                 <children>
-                                    <VBox prefHeight="200.0" prefWidth="100.0">
-                                       <children>
-                                          <Label text="Username">
-                                             <padding>
-                                                <Insets top="10.0" />
-                                             </padding>
-                                          </Label>
-                                          <Label text="Firstname">
-                                             <padding>
-                                                <Insets top="10.0" />
-                                             </padding>
-                                          </Label>
-                                          <Label text="Lastname">
-                                             <padding>
-                                                <Insets top="10.0" />
-                                             </padding>
-                                          </Label>
-                                          <Label text="Password">
-                                             <padding>
-                                                <Insets top="10.0" />
-                                             </padding>
-                                          </Label>
-                                          <Label text="Type">
-                                             <padding>
-                                                <Insets top="10.0" />
-                                             </padding>
-                                          </Label>
-                                       </children>
-                                    </VBox>
-                                    <VBox prefHeight="200.0" prefWidth="100.0">
-                                       <children>
-                                          <TextField />
-                                          <TextField />
-                                          <TextField />
-                                          <PasswordField />
-                                          <ChoiceBox prefWidth="150.0" />
-                                       </children>
-                                    </VBox>
-                                 </children>
-                              </HBox>
-                              <Button mnemonicParsing="false" text="Create Account" />
-                           </children>
-                        </VBox>
-                     </children></AnchorPane>
-            </content>
-          </Tab>
-        </tabs>
-      </TabPane>
-   </children>
-</Pane>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ooadjproject.appofapi.Controllers.LoginController">
+                    <VBox layoutX="2.0" layoutY="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368.0" prefWidth="600.0">
+                        <children>
+         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+            <children>
+               <VBox prefHeight="81.0" prefWidth="168.0" spacing="20.0">
+                  <children>
+                                            <Label text="Username" />
+                                            <Label text="Password" />
+                  </children>
+                  <padding>
+                     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                  </padding>
+               </VBox>
+               <VBox prefHeight="114.0" prefWidth="280.0" spacing="20.0">
+                  <children>
+                                            <TextField fx:id="userField" />
+                                            <PasswordField fx:id="passField" />
+                  </children>
+                  <padding>
+                     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                  </padding>
+               </VBox>
+            </children>
+            <padding>
+               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+         </HBox>
+                            <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+                                <children>
+                                  <Button mnemonicParsing="false" onAction="#onLogin" text="Login">
+                                      <font>
+                                          <Font size="14.0" />
+                                      </font>
+                                  </Button>
+               <Label fx:id="welcomeText" />
+                                </children>
+            <VBox.margin>
+               <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </VBox.margin>
+            <padding>
+               <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+                            </VBox>
+                        </children>
+                    </VBox>
+
+</AnchorPane>

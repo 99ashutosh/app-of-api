@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ooadjproject.appofapi.Controllers.DBAController">
+    <children>
+        <TabPane prefHeight="200.0" prefWidth="200.0" side="LEFT" stylesheets="@stylesheet.css" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="All APIs">
+                    <content>
+                        <fx:include fx:id="tab1" source="apiTableEntry.fxml" />
+                    </content>
+                </Tab>
+                <Tab text="Add APIs">
+                    <content>
+                        <fx:include fx:id="tab2" source="addApi.fxml" />
+                    </content>
+                </Tab>
+                <Tab text="Settings">
+                    <content>
+                        
+                    </content>
+               <content>
+                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+                     <children>
+                        <HBox spacing="10.0">
+                           <children>
+                              <Label text="Logged In as: ">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="userLabel" text="User">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox spacing="20.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#onLogout" text="LogOut" />
+                              <Button mnemonicParsing="false" onAction="#onDeleteAccount" text="Delete This Account" />
+                           </children>
+                        </HBox>
+                        <Label text="All Users">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Label text="Select Items to delete">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="userView" prefHeight="200.0" prefWidth="200.0">
+                          <columns>
+                            <TableColumn fx:id="fnameCol" prefWidth="115.0" text="First Name" />
+                            <TableColumn fx:id="lnameCol" prefWidth="103.0" text="Last Name" />
+                              <TableColumn fx:id="userCol" prefWidth="164.0" text="Username" />
+                              <TableColumn fx:id="emailCol" prefWidth="207.0" text="Email" />
+                              <TableColumn fx:id="typeCol" prefWidth="95.0" text="Type" />
+                          </columns>
+                        </TableView>
+                        <HBox alignment="TOP_RIGHT" spacing="20.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#onDeleteUser" text="Delete User" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Label text="All APIs">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Label text="Select Items to delete">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="apiView" prefHeight="200.0" prefWidth="200.0">
+                          <columns>
+                            <TableColumn fx:id="apiNameCol" prefWidth="75.0" text="Name" />
+                            <TableColumn fx:id="apiURLCol" prefWidth="75.0" text="URL" />
+                          </columns>
+                        </TableView>
+                        <HBox alignment="TOP_RIGHT" spacing="20.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#onDeleteAPI" text="Delete API" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </VBox>
+               </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</StackPane>

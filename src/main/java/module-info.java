@@ -8,6 +8,7 @@ module com.ooadjproject.appofapi {
     requires org.kordamp.bootstrapfx.core;
     requires java.sql;
     requires org.apache.commons.io;
+    requires org.mariadb.jdbc;
 
     opens com.ooadjproject.appofapi to javafx.fxml;
     exports com.ooadjproject.appofapi;

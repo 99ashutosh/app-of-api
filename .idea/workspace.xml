@@ -6,6 +6,39 @@
   <component name="ChangeListManager">
     <list default="true" id="26963be5-345a-451f-befe-0e7d26d91d06" name="Changes" comment="Initial Commit">
       <changelist_data name="99ashutosh" email="ashutosh.na.99@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/APIWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/APIWidgetBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/AbstractLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/AddAPIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/CreateAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/ProgrammerDashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/UserDataFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/WidgetDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/WidgetReloaderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/addApi.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/createAccount.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/dbaDashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/loginWindow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/DBAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/DBAController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/SettingsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/allApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Controllers/AllAPIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Models/APIManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Models/APIManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Models/AccountManagementBackend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ooadjproject/appofapi/Models/AccountManagementBackend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/apiTableEntry.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/apiTableEntry.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/dbaSettings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/ProgrammerDashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/userSettings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ooadjproject/appofapi/userSettings.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../scala/scalaonandroid" beforeDir="false" afterPath="$PROJECT_DIR$/../../scala/scalaonandroid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../workshops/SummerSchool2022" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshops/SummerSchool2022" afterDir="false" />
     </list>
@@ -18,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Class" />
       </list>
@@ -32,6 +66,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -43,28 +80,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.ooadjproject.appofapi.Controllers" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="19" />
@@ -97,7 +140,30 @@
       <updated>1680281896422</updated>
       <workItem from="1680281898859" duration="377000" />
       <workItem from="1680282291173" duration="11704000" />
-      <workItem from="1681523340730" duration="15496000" />
+      <workItem from="1681523340730" duration="15982000" />
+      <workItem from="1681605132388" duration="4016000" />
+      <workItem from="1681615119947" duration="151000" />
+      <workItem from="1681621113187" duration="4000" />
+      <workItem from="1681621872416" duration="459000" />
+      <workItem from="1681624660739" duration="151000" />
+      <workItem from="1681626184538" duration="212000" />
+      <workItem from="1681626997802" duration="893000" />
+      <workItem from="1681639941906" duration="2685000" />
+      <workItem from="1681735656173" duration="1005000" />
+      <workItem from="1682073237457" duration="317000" />
+      <workItem from="1682073567998" duration="12094000" />
+      <workItem from="1682138456142" duration="3143000" />
+      <workItem from="1682142949644" duration="79000" />
+      <workItem from="1682143042117" duration="4919000" />
+      <workItem from="1682147983334" duration="5744000" />
+      <workItem from="1682236900343" duration="626000" />
+      <workItem from="1682237546542" duration="3682000" />
+      <workItem from="1682252098676" duration="2581000" />
+      <workItem from="1682254859504" duration="211000" />
+      <workItem from="1682255209074" duration="7247000" />
+      <workItem from="1682302620453" duration="2283000" />
+      <workItem from="1682312885692" duration="1694000" />
+      <workItem from="1682317231679" duration="921000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1681543141799</created>

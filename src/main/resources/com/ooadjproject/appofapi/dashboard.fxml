@@ -15,8 +15,12 @@
                 <fx:include fx:id="tab1" source="apiTableEntry.fxml" />
             </content>
         </Tab>
-          <Tab text="Add APIs" />
-            <Tab text="Settings" />
+
+            <Tab text="Settings">
+                <content>
+                    <fx:include fx:id="tab3" source="userSettings.fxml" />
+                </content>
+            </Tab>
         </tabs>
       </TabPane>
    </children>
